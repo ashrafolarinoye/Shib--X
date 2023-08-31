@@ -218,7 +218,7 @@ p {
 .text-gradient,
 .countdown__label,
 .section__subtitle {
-    background: linear-gradient(0deg, rgb(252, 100, 0) 0%, rgb(253, 162, 0) 100%);
+    background: linear-gradient(0deg, rgb(32 126 1) 0%, rgb(111 211 3) 100%);
     text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -237,7 +237,7 @@ p {
     z-index: 2;
 }
 .btn--primary {
-    background-image: linear-gradient(to right, #e05900, #fda200, #fda200, #e05900);
+    background-image: linear-gradient(to right, #238401, #68cc01, #6fd205, #258801);
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     background-size: 250% 100%;
@@ -253,7 +253,7 @@ p {
     transition: all 0.4s ease-in-out;
 }
 .btn--outline {
-    border: 2px solid #fda200;
+    border: 2px solid #68cc01;
     position: relative;
     background: transparent;
 }
@@ -268,7 +268,7 @@ p {
     height: calc(100% + 4px);
     border-radius: inherit;
     transition: 0.4s ease-in-out all;
-    background-image: linear-gradient(to right, #e05900, #fda200, #fda200, #e05900);
+    background-image: linear-gradient(to right, #238401, #68cc01, #6fd205, #258801);
     animation: gradient-animation 4s ease-in-out infinite;
     opacity: 0;
 }
@@ -666,7 +666,7 @@ p {
     }
 }
 .navbar__menu-link:hover {
-    color: #fd8000;
+    color: #238401;
 }
 .navbar__burger {
     position: relative;
@@ -1198,7 +1198,7 @@ p {
     color: #000;
     padding-top: 3.75rem;
     padding-bottom: 3.75rem;
-    background: linear-gradient(#ffc22d 0%, #ffa229 100%);
+    background: linear-gradient(0deg, rgb(32 126 1) 0%, rgb(111 211 3) 100%);
     overflow: hidden;
 }
 @media (min-width: 768px) {
