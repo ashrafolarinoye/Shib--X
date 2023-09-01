@@ -256,6 +256,7 @@ p {
 }
 .btn--outline {
     border: 2px solid #68cc01;
+    border-radius: 8px;
     position: relative;
     background: transparent;
 }
