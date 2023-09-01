@@ -2028,7 +2028,7 @@ p {
     letter-spacing: 0.2em;
     line-height: 1.27;
     text-align: center;
-    color: #fd8000;
+    color: #218400;
     margin-top: 84px;
     display: block;
 }
@@ -2070,7 +2070,7 @@ p {
     left: 50%;
     margin: 0 0 0 -1px;
     width: 2px;
-    background-color: #fd8000;
+    background-color: #218400;
     display: none;
 }
 @media (min-width: 768px) {
@@ -2115,7 +2115,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
-    background-color: #fd8000;
+    background-color: #218400;
     height: 26px;
     width: 26px;
     border-radius: 50%;
