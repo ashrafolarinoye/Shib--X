@@ -224,6 +224,8 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: text-shine 12s ease-in-out infinite;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
 }
 .btn {
     display: inline-block;
@@ -574,6 +576,7 @@ p {
     left: 0;
     right: 0;
     width: 100%;
+    height: 10%;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem 1.25rem;
@@ -633,7 +636,7 @@ p {
 }
 .navbar__menu {
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
     flex-direction: column;
 }
 @media (min-width: 1090px) {
@@ -806,7 +809,7 @@ p {
 .hero {
     position: relative;
     padding-top: 3.75rem;
-    background-image: url(img/new/hero-bg.png);
+    background-image: url(img/new/creepy.jpg);
     background-size: cover;
     background-position: 50% 50%;
     text-align: center;
@@ -832,22 +835,7 @@ p {
         padding-top: 150px;
     }
 }
-.hero__clouds {
-    background: transparent url(img/clouds.html) repeat top center;
-    z-index: 3;
-    -moz-animation: move-clouds-back 200s linear infinite;
-    -ms-animation: move-clouds-back 200s linear infinite;
-    -o-animation: move-clouds-back 200s linear infinite;
-    -webkit-animation: move-clouds-back 200s linear infinite;
-    animation: move-clouds-back 200s linear infinite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-}
+
 .hero__title {
     font-size: 42px;
     line-height: 1;
@@ -932,7 +920,7 @@ p {
     width: 21.25rem;
     height: 21.25rem;
     border-radius: 50%;
-    background: radial-gradient(circle, rgb(160, 105, 50) 0%, rgb(24, 23, 31) 70%);
+    background: radial-gradient(circle, rgb(33 127 1) 0%, rgb(24, 23, 31) 70%);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -996,7 +984,7 @@ p {
     padding-top: 0;
     padding-bottom: 0;
     overflow: hidden;
-    background: url(img/new/background_crush.png);
+    background: linear-gradient(0deg, rgb(32 126 1) 0%, rgb(111 211 3) 100%);
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0;
@@ -1018,7 +1006,7 @@ p {
     position: absolute;
     width: 46px;
     height: 100%;
-    background: #ff7700;
+    background: #238400;
 }
 @media (min-width: 768px) {
     .crush__container {
